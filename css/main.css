@@ -3,4 +3,16 @@ body {
 }
 p {
 	font-size: 18px;
+	background-color: #a29ead;
+	color: #5b2b5b;
+	font-size: 22px;
+	font-weight: 700;
+	margin-left: 400px;
+	text-align: left;
+	float: right;
+	position: absolute;
+	z-index: 1;
+	width: 800px;
+	height: 450px;
 }
+
