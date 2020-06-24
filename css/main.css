@@ -2,8 +2,8 @@
 
 html, body {
 	font-family: 'Montserrat', sans-serif;
-	padding: 0;
 	margin: 0;
+	padding: 0;
 }
 
 /**Grid**/
@@ -14,12 +14,55 @@ html, body {
 }
 
 .half-width {
-	width: 600px;
 	float: left;
+	width: 600px;
 }
 
 /**Header Section**/
+#header {
+	background: url("../img/hero-main.jpg");
+	background-size: cover;
+	height: 600px;
+}
+.container {
+	clear: both;
+	height: 300px;
+}
 
+.container h1 {
+	color: black;
+	font-size: 60px;
+	padding: 50px 0 0 590px;
+}
+
+.container h4 {
+	color: black;
+	font-size: 35px;
+	padding: 25px 0 0 590px;
+}
+
+/**Nav Bar**/
+nav{
+	color: black;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0px 0px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/**.nav-link li {
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
 /**Work Section**/
 
 /**About Section**/
