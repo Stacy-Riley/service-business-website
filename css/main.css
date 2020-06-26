@@ -59,10 +59,15 @@ nav ul li {
 }
 
 /**Our Services Section**/
+
+#service-title {
+	text-align: center;
+	font-size: 25px;
+}
 .container-work-img {
 	display: grid;
-	grid-template-columns: 30% 30% 30%;
-	grid-template-rows: 175px 175px 175px;
+	grid-template-columns: repeat(3, 30%);
+	grid-template-rows: repeat(3, 175px);
 	grid-gap: 40px;
 	margin: 20px auto 20px 40px;
 }
@@ -77,12 +82,16 @@ nav ul li {
 .item8{background-color: DarkCyan;}
 .item9{background-color: Coral;}
 
-/**Work Section**/
-
 /**About Section**/
-
+#about-title {
+	text-align: center;
+	font-size: 25px;
+}
 /**Contact Section**/
-
+#contact-title {
+	text-align: center;
+	font-size: 25px;
+}
 /**Footer Section**/
 
 
